@@ -1,0 +1,15 @@
+#program to find sum of odd and even numbers
+n=int(input('Enter n value:'))
+even_s=0
+odd_s=0
+sum=0
+for i in range(1,n+1):
+  if(i%2==0):
+         even_s=even_s+i
+  else:
+         odd_s=odd_s+i
+
+print('sum of even numbers',even_s)         
+print('sum of odd numbers',odd_s)
+sum=even_s+odd_s
+print('total sum',sum)
